@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "indie-game-marketing-strategies-2025",
+    "title": "Indie Game Marketing Strategies That Actually Work in 2025",
+    "excerpt": "Stop wasting time on ineffective marketing tactics. Learn the proven strategies that successful indie developers are using to build audiences and drive sales in today's competitive market.",
+    "author": "Marcus Chen",
+    "authorTwitter": "@marcuschen_dev",
+    "publishedAt": "2025-01-28",
+    "category": "Indie games",
+    "featured": true,
+    "imageUrl": "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=400&fit=crop&crop=center",
+    "readTime": "8 min read"
+  },
+  {
+    "slug": "streaming-setup-guide-budget-creators",
+    "title": "The Complete Streaming Setup Guide for Budget-Conscious Creators",
+    "excerpt": "Build a professional streaming setup without breaking the bank. From essential equipment to software recommendations, everything you need to start streaming games like a pro.",
+    "author": "Jessica Torres",
+    "authorTwitter": "@jesstreams",
+    "publishedAt": "2025-01-26",
+    "category": "Streaming",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=400&fit=crop&crop=center",
+    "readTime": "12 min read"
+  },
+  {
+    "slug": "gaming-industry-trends-first-quarter-2025",
+    "title": "Gaming Industry Trends: What's Shaping Q1 2025",
+    "excerpt": "From AI integration in game development to the rise of cross-platform gaming, explore the key trends defining the gaming landscape in early 2025.",
+    "author": "David Kim",
+    "authorTwitter": "@davidkgames",
+    "publishedAt": "2025-01-24",
+    "category": "Gaming news",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=800&h=400&fit=crop&crop=center",
+    "readTime": "6 min read"
+  },
+  {
+    "slug": "web3-gaming-adoption-mainstream-reality",
+    "title": "Web3 Gaming: From Hype to Mainstream Reality",
+    "excerpt": "Web3 gaming has evolved beyond speculation. Discover how blockchain technology is creating real value for players and developers, with practical examples from successful projects.",
+    "author": "Sarah Mitchell",
+    "authorTwitter": "@sarahweb3",
+    "publishedAt": "2025-01-22",
+    "category": "web3",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&h=400&fit=crop&crop=center",
+    "readTime": "10 min read"
+  },
+  {
+    "slug": "cryptocurrency-gaming-payments-guide",
+    "title": "Integrating Cryptocurrency Payments in Your Game: A Developer's Guide",
+    "excerpt": "Learn how to safely implement cryptocurrency payments in your games. Covers technical implementation, legal considerations, and user experience best practices.",
+    "author": "Alex Rodriguez",
+    "authorTwitter": "@alexcryptodev",
+    "publishedAt": "2025-01-20",
+    "category": "Crypto",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=400&fit=crop&crop=center",
+    "readTime": "14 min read"
+  },
+  {
+    "slug": "unity-vs-unreal-indie-developers-2025",
+    "title": "Unity vs Unreal Engine for Indie Developers: 2025 Comparison",
+    "excerpt": "Choosing the right game engine can make or break your indie project. We compare Unity and Unreal Engine across performance, cost, learning curve, and platform support.",
+    "author": "Emma Watson",
+    "authorTwitter": "@emmawdev",
+    "publishedAt": "2025-01-18",
+    "category": "Indie games",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=400&fit=crop&crop=center",
+    "readTime": "9 min read"
+  },
+  {
+    "slug": "twitch-algorithm-changes-creators-adapt",
+    "title": "How Twitch's Latest Algorithm Changes Affect Content Creators",
+    "excerpt": "Twitch's discovery algorithm has evolved significantly. Learn how these changes impact content visibility and what creators need to do to maintain and grow their audiences.",
+    "author": "Jake Thompson",
+    "publishedAt": "2025-01-16",
+    "category": "Streaming",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800&h=400&fit=crop&crop=center",
+    "readTime": "7 min read"
+  },
+  {
+    "slug": "mobile-gaming-revenue-milestones-2025",
+    "title": "Mobile Gaming Hits New Revenue Milestones in 2025",
+    "excerpt": "Mobile gaming continues its dominance with record-breaking revenue figures. Analyze the market trends, top-performing genres, and what this means for developers.",
+    "author": "Rachel Green",
+    "publishedAt": "2025-01-14",
+    "category": "Gaming news",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=400&fit=crop&crop=center",
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "nft-gaming-sustainability-models",
+    "title": "Sustainable NFT Gaming Models That Players Actually Want",
+    "excerpt": "Moving beyond speculative NFTs, learn about gaming projects that create genuine value for players while building sustainable economies that benefit everyone.",
+    "author": "Mike Johnson",
+    "publishedAt": "2025-01-12",
+    "category": "web3",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&h=400&fit=crop&crop=center",
+    "readTime": "11 min read"
+  },
+  {
+    "slug": "defi-gaming-tokens-investment-guide",
+    "title": "DeFi Gaming Tokens: Investment Opportunities and Risks",
+    "excerpt": "Navigate the complex world of gaming cryptocurrency investments. Understand tokenomics, evaluate projects, and make informed decisions in the gaming DeFi space.",
+    "author": "Lisa Park",
+    "publishedAt": "2025-01-10",
+    "category": "Crypto",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=800&h=400&fit=crop&crop=center",
+    "readTime": "13 min read"
+  },
+  {
+    "slug": "pixel-art-game-development-tools",
+    "title": "Essential Pixel Art Tools for Indie Game Developers",
+    "excerpt": "Create stunning pixel art for your indie games with the right tools and techniques. From free software to professional applications, find the perfect fit for your workflow.",
+    "author": "Carlos Mendez",
+    "publishedAt": "2025-01-08",
+    "category": "Indie games",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=800&h=400&fit=crop&crop=center",
+    "readTime": "8 min read"
+  },
+  {
+    "slug": "youtube-gaming-monetization-strategies",
+    "title": "YouTube Gaming Monetization: Beyond Ad Revenue",
+    "excerpt": "Diversify your YouTube gaming income with sponsorships, memberships, merchandise, and more. Learn proven strategies from successful gaming content creators.",
+    "author": "Amanda Lee",
+    "publishedAt": "2025-01-06",
+    "category": "Streaming",
+    "featured": false,
+    "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop&crop=center",
+    "readTime": "10 min read"
+  }
+]
