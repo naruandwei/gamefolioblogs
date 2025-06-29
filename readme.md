@@ -1,229 +1,202 @@
-# Gamefolio Blog Management Guide
+# Gamefolio
 
-Welcome to the Gamefolio blog system! This guide will show you how to add, edit, and manage blog posts for the Gamefolio website using our GitHub-powered system.
+A dynamic gaming community platform connecting content creators and indie game developers through innovative content submission and collaboration tools.
 
-## 🚀 Quick Start
+## Features
 
-1. **Access the Blog Repository**: https://github.com/BetaONEIO/gamefolioblogs
-2. **Add your content** to the repository
-3. **Your changes appear instantly** on the website - no redeployment needed!
+### Content Management
+- **Content Submission System**: Submit games, streams, clips, and testimonials with file upload support
+- **Admin Panel**: Comprehensive management system for reviewing and managing submitted content
+- **GitHub-Powered Blog**: Dynamic blog system that fetches content from external GitHub repository
+- **Email Notifications**: Automated email alerts for new submissions using Brevo
 
-## 📁 Repository Structure
+### Blog System
+- **Dynamic Content**: Fetches blog posts from https://github.com/BetaONEIO/gamefolioblogs
+- **Markdown Support**: Full markdown rendering with @tailwindcss/typography styling
+- **Category Filtering**: Support for Indie games, Streaming, Gaming news, web3, Crypto
+- **Author Integration**: Twitter link support for author profiles
+- **Flexible Organization**: Multiple folder structure options for content organization
+- **Real-time Updates**: Content updates automatically without redeployment
 
-Your blog repository should look like this:
+### Design & UX
+- **Responsive Design**: Mobile-first design with Tailwind CSS and Radix UI components
+- **Database Integration**: PostgreSQL with Drizzle ORM for reliable data persistence
+- **File Upload**: Support for images and videos with progress tracking
+- **Form Validation**: Advanced validation with dynamic social link handling
 
+## Tech Stack
+
+- **Frontend**: React + TypeScript + Vite
+- **Backend**: Node.js + Express
+- **Database**: PostgreSQL + Drizzle ORM
+- **Styling**: Tailwind CSS + Radix UI
+- **Blog**: GitHub API + marked (markdown parser)
+- **Email**: Brevo API integration
+- **File Upload**: Multer with progress tracking
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Set up environment variables:
+   - `DATABASE_URL`: PostgreSQL connection string
+   - `BREVO_API_KEY`: For email notifications
+
+3. Run database migrations:
+   ```bash
+   npm run db:push
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:5000`.
+
+## Admin Access
+
+Default admin credentials:
+- Username: `admin`
+- Password: `Soiwasafk1!`
+
+Access the admin panel at `/admin` to manage:
+- User accounts and team members
+- Games catalog with approve/feature/delete functionality
+- Content submissions and reviews
+
+## Blog System
+
+The blog system fetches content from the GitHub repository at https://github.com/BetaONEIO/gamefolioblogs
+
+### Blog Structure
+- `posts.json`: Contains metadata for all blog posts
+- `*.md` files: Individual blog post content in markdown format
+
+### Supported Categories
+- Indie games
+- Streaming  
+- Gaming news
+- web3
+- Crypto
+
+### Folder Organization Options
+
+**Simple Structure (Recommended for small teams):**
 ```
 gamefolioblogs/
-├── posts.json          # Master list of all blog posts
-├── post1-slug.md       # Individual blog post files
-├── post2-slug.md
-├── post3-slug.md
-└── README.md           # This guide
+├── posts.json
+├── posts/
+│   ├── indie-game-marketing-2025.md
+│   ├── streaming-setup-guide.md
+│   └── gaming-trends-2025.md
 ```
 
-## 📝 Adding a New Blog Post
-
-### Step 1: Create the Markdown File
-
-Create a new `.md` file with a descriptive slug (e.g., `indie-game-marketing-2025.md`):
-
-```markdown
-# Your Blog Post Title
-
-Write your content here using standard Markdown formatting.
-
-## Subheadings
-
-Use ## for main sections and ### for subsections.
-
-### Key Points
-
-- Use bullet points for lists
-- **Bold text** for emphasis
-- *Italic text* for subtle emphasis
-- `Code snippets` for technical terms
-
-## Images
-
-![Alt text](https://your-image-url.com/image.jpg)
-
-## Links
-
-[Link text](https://example.com)
-
-> Use blockquotes for important callouts or quotes
-
+**Category-Based Structure (For larger teams):**
+```
+gamefolioblogs/
+├── posts.json
+├── indie-games/
+│   └── unity-vs-unreal-2025.md
+├── streaming/
+│   └── twitch-setup-guide.md
+└── gaming-news/
+    └── industry-trends-2025.md
 ```
 
-### Step 2: Add Entry to posts.json
-
-Open `posts.json` and add your new post to the array:
-
+**Custom Folder Structure:**
+Specify custom folder paths in posts.json:
 ```json
 {
-  "slug": "indie-game-marketing-2025",
-  "title": "Indie Game Marketing Strategies for 2025",
-  "excerpt": "A brief description of your post (2-3 sentences max)",
-  "author": "Your Name",
-  "authorTwitter": "@yourhandle",
-  "publishedAt": "2025-01-30",
-  "category": "Indie games",
-  "featured": false,
-  "imageUrl": "https://images.unsplash.com/photo-ID?w=800&h=400&fit=crop",
-  "readTime": "8 min read"
+  "slug": "my-post",
+  "folderPath": "tutorials",
+  "title": "My Tutorial Post"
 }
 ```
 
-### Step 3: Commit and Push
+## Project Structure
 
-1. Save your changes
-2. Commit to the repository
-3. Push to GitHub
-4. **Your post appears instantly on the website!**
-
-## 📋 Required Fields Explained
-
-| Field | Description | Example |
-|-------|-------------|---------|
-| `slug` | URL-friendly filename (must match .md file) | `"indie-game-marketing-2025"` |
-| `title` | Post title displayed on site | `"Indie Game Marketing Strategies for 2025"` |
-| `excerpt` | Brief description for post previews | `"Learn proven strategies..."` |
-| `author` | Author's full name | `"Sarah Johnson"` |
-| `authorTwitter` | Twitter handle (optional) | `"@sarahjdev"` |
-| `publishedAt` | Publication date (YYYY-MM-DD) | `"2025-01-30"` |
-| `category` | Must use approved categories | `"Indie games"` |
-| `featured` | Set to `true` for featured post | `false` |
-| `imageUrl` | Header image URL | Unsplash URL |
-| `readTime` | Estimated reading time | `"8 min read"` |
-
-## 🏷️ Approved Categories
-
-Use **exactly** these categories (case-sensitive):
-
-- `"Indie games"` - Game development, tools, engines
-- `"Streaming"` - Twitch, YouTube, content creation
-- `"Gaming news"` - Industry trends, market analysis
-- `"web3"` - Blockchain gaming, NFTs, decentralized gaming
-- `"Crypto"` - Cryptocurrency, DeFi gaming, payments
-
-## ⭐ Featured Posts
-
-- Only **one post** should have `"featured": true`
-- Featured posts appear prominently at the top
-- When adding a new featured post, set others to `"featured": false`
-
-## 🖼️ Images
-
-### Recommended Sources:
-- **Unsplash**: `https://images.unsplash.com/photo-ID?w=800&h=400&fit=crop`
-- **Your own images**: Upload to GitHub and use relative paths
-
-### Image Guidelines:
-- **Size**: 800x400px recommended
-- **Format**: JPG or PNG
-- **Quality**: High resolution, web-optimized
-- **Content**: Gaming-related, professional
-
-## ✍️ Writing Guidelines
-
-### Title Best Practices:
-- Keep under 60 characters
-- Be descriptive and engaging
-- Include relevant keywords
-- Use title case
-
-### Excerpt Guidelines:
-- 2-3 sentences maximum
-- Summarize the main value
-- Avoid clickbait
-- End without punctuation
-
-### Content Structure:
-```markdown
-# Main Title (H1 - only one per post)
-
-Brief introduction paragraph.
-
-## Main Section (H2)
-
-Content here...
-
-### Subsection (H3)
-
-More detailed content...
-
-## Another Main Section
-
-Continue with your content...
-
-## Conclusion
-
-Wrap up your thoughts.
+```
+├── client/           # React frontend
+│   ├── src/
+│   │   ├── components/  # Reusable UI components
+│   │   ├── pages/       # Page components
+│   │   │   ├── blog-list.tsx     # Blog listing page
+│   │   │   ├── blog-post.tsx     # Individual blog post
+│   │   │   ├── admin.tsx         # Admin panel
+│   │   │   └── feature.tsx       # Content submission
+│   │   ├── hooks/       # Custom React hooks
+│   │   └── lib/         # Utility functions
+├── server/           # Express backend
+│   ├── db.ts           # Database connection
+│   ├── storage.ts      # Data access layer
+│   ├── routes.ts       # API endpoints
+│   ├── auth.ts         # Authentication logic
+│   └── email.ts        # Email service
+├── shared/           # Shared types and schemas
+│   └── schema.ts       # Database schema definitions
+├── uploads/          # File upload directory
+├── gamefolio-posts.json     # Sample blog posts
+└── folder-organization-guide.md  # Blog organization guide
 ```
 
-## 🔄 Editing Existing Posts
+## API Endpoints
 
-1. **Find the post**: Locate the `.md` file in the repository
-2. **Edit content**: Make your changes in Markdown
-3. **Update metadata**: Modify `posts.json` if needed (title, category, etc.)
-4. **Commit changes**: Push to GitHub
-5. **Changes are live immediately**
+### Public Endpoints
+- `GET /api/games` - Fetch games catalog
+- `GET /api/streamers` - Fetch streamers
+- `GET /api/streams` - Fetch streams  
+- `GET /api/clips` - Fetch clips
+- `GET /api/testimonials` - Fetch testimonials
+- `POST /api/content-submission` - Submit content for review
 
-## ❌ Common Mistakes to Avoid
+### Admin Endpoints
+- `POST /api/admin/login` - Admin login
+- `GET /api/admin/users` - Manage users
+- `POST /api/admin/users` - Create new user
+- `DELETE /api/admin/users/:id` - Delete user
+- `GET /api/admin/submissions` - Get all submissions
+- `PATCH /api/admin/submissions/:id/status` - Update submission status
+- `DELETE /api/admin/submissions/:id` - Delete submission
 
-1. **Slug mismatch**: Ensure the slug in `posts.json` matches the `.md` filename
-2. **Wrong category**: Use exact category names from the approved list
-3. **Missing fields**: All required fields must be present
-4. **Multiple featured**: Only one post should be featured at a time
-5. **Invalid JSON**: Check JSON syntax before committing
+### Blog System
+The blog system fetches content directly from GitHub:
+- Posts metadata: `https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/posts.json`
+- Post content: `https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/[folder/]slug.md`
 
-## 🛠️ Troubleshooting
+## Email Integration
 
-### Post not appearing on website:
-- Check that slug matches filename exactly
-- Verify all required fields are present
-- Ensure JSON syntax is valid
-- Check category spelling and capitalization
+Email notifications are sent to `hello@gamefolio.com` for:
+- New content submissions
+- Contact form submissions
+- Admin notifications
 
-### Images not loading:
-- Verify image URL is accessible
-- Use HTTPS URLs only
-- Test image URL in browser first
+## Mobile Responsiveness
 
-### Twitter links not working:
-- Include @ symbol in authorTwitter field
-- Use format: `"@username"`
+The platform is fully responsive with:
+- Mobile-first design approach
+- Touch-friendly navigation
+- Optimized forms and layouts
+- Responsive image handling
+- Mobile-optimized typography
 
-## 📞 Getting Help
+## Contributing
 
-If you encounter issues:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test on both desktop and mobile
+5. Submit a pull request
 
-1. **Check the console**: Look for error messages in browser developer tools
-2. **Validate JSON**: Use a JSON validator for posts.json
-3. **Test locally**: Preview Markdown files before publishing
-4. **Ask for help**: Contact the development team
+## Documentation
 
-## 🎯 Content Strategy Tips
+- `replit.md`: Project architecture and user preferences
+- `folder-organization-guide.md`: Blog organization options
+- `github-blog-setup-guide.md`: Blog system setup instructions
 
-### Posting Schedule:
-- Aim for 2-3 posts per week
-- Space out featured posts
-- Balance content across all categories
+## License
 
-### SEO Best Practices:
-- Use relevant keywords in titles
-- Write compelling excerpts
-- Include internal and external links
-- Optimize images with alt text
-
-### Engagement Tips:
-- Ask questions in your content
-- Include actionable advice
-- Share personal experiences
-- Encourage social media sharing
-
----
-
-**Happy blogging! 🎮📝**
-
-*This blog system automatically updates the Gamefolio website whenever you make changes to this repository. No technical knowledge required - just write great content and push to GitHub!*
+This project is licensed under the MIT License.
