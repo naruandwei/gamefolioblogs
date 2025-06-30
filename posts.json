@@ -16,18 +16,18 @@
     "readTime": "12 min read"
   },
   {
-    "slug": "gaming-industry-trends-2025",
-    "title": "5 Gaming Industry Trends That Will Define 2025",
-    "excerpt": "From AI-powered game development to the rise of cloud gaming, discover the key trends shaping the future of gaming and how they impact developers and players alike.",
-    "author": "David Kim",
-    "authorTwitter": "@davidkim_games",
-    "publishedAt": "2025-01-25",
+    "slug": "example-post-2",
+    "title": "example post with a url image",
+    "excerpt": "This is an example post, it is not featured and also has the post image as a url image to show you how that item works",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2025-06-30",
     "category": "Gaming news",
     "featured": false,
     "image": {
       "type": "url",
-      "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=400&fit=crop&crop=center",
-      "alt": "Gaming industry technology trends visualization"
+      "src": "https://pbs.twimg.com/profile_images/1938172640939696128/uUDofXDP_400x400.png",
+      "alt": "example file 2"
     },
     "readTime": "6 min read"
   }
