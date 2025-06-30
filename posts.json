@@ -10,7 +10,7 @@
     "featured": true,
     "image": {
       "type": "local",
-      "src": "./assets/example-post1/image1.png",
+      "src": "./asdsets/example-post1/image1.png",
       "alt": "example image"
     },
     "readTime": "12 min read"
