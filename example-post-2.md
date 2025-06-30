@@ -14,16 +14,16 @@ Whether you're just starting out or looking to take your channel to the next lev
 ## Quick Navigation
 
 - [Getting Started](#getting-started)
-- [Equipment & Setup](#equipment--setup)
+- [Equipment & Setup](#equipment-setup)
 - [Content Strategy](#content-strategy)
 - [Growing Your Audience](#growing-your-audience)
 - [Monetization Methods](#monetization-methods)
 - [Advanced Techniques](#advanced-techniques)
 - [Platform-Specific Tips](#platform-specific-tips)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-- [Tools & Resources](#tools--resources)
-- [Success Stories & Case Studies](#success-stories--case-studies)
-- [Conclusion & Next Steps](#conclusion--next-steps)
+- [Tools & Resources](#tools-resources)
+- [Success Stories & Case Studies](#success-stories-case-studies)
+- [Conclusion & Next Steps](#conclusion--next-steps) ← double hyphen here might be correct depending on renderer
 
 ---
 
