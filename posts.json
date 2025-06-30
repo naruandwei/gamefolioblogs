@@ -11,7 +11,7 @@
     "image": {
       "type": "local",
       "src": "./example-post1/image1.png",
-      "alt": "Budget streaming setup with gaming equipment"
+      "alt": "example image"
     },
     "readTime": "12 min read"
   },
