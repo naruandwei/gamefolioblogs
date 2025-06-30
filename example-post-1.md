@@ -6,19 +6,22 @@ Pixel art has experienced a massive renaissance in indie game development. From 
 
 This comprehensive guide will walk you through everything you need to know to create compelling pixel art for your indie game project, with practical examples and downloadable resources.
 
-![Pixel Art Character Examples](./post_image_example.png)
+![Pixel Art Character Examples](images/pixel-art-characters-showcase.png)
 *Figure 1: Various pixel art character styles from different indie games*
 
 ## Table of Contents
 
 1. [Why Choose Pixel Art?](#why-choose-pixel-art)
-2. [Essential Tools](#essential-tools)
+2. [Essential Tools for Pixel Art](#essential-tools-for-pixel-art)
 3. [Fundamental Techniques](#fundamental-techniques)
-4. [Character Design](#character-design)
-5. [Environment Creation](#environment-creation)
+4. [Character Design Principles](#character-design-principles)
+5. [Environment and Asset Creation](#environment-and-asset-creation)
 6. [Animation Principles](#animation-principles)
-7. [Common Mistakes](#common-mistakes)
+7. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 8. [Advanced Techniques](#advanced-techniques)
+9. [Workflow Optimization](#workflow-optimization)
+10. [Testing and Polish](#testing-and-polish)
+11. [Resources and Downloads](#resources-and-downloads)
 
 ---
 
