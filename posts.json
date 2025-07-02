@@ -1,12 +1,12 @@
 [
   {
     "slug": "example-post-1",
-    "title": "Featured example post with a local image",
-    "excerpt": "This is an example post, it is featured and also has the post image as a local image to show you how that item works",
+    "title": "Welcome to Gamefolio",
+    "excerpt": "",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-06-30",
-    "category": "Streaming",
+    "category": "",
     "featured": true,
     "image": {
       "type": "local",
@@ -14,21 +14,5 @@
       "alt": "example image"
     },
     "readTime": "12 min read"
-  },
-  {
-    "slug": "example-post-2",
-    "title": "example post with a url image",
-    "excerpt": "This is an example post, it is not featured and also has the post image as a url image to show you how that item works",
-    "author": "Tom Watts",
-    "authorTwitter": "@w0tts",
-    "publishedAt": "2025-06-30",
-    "category": "Gaming news",
-    "featured": false,
-    "image": {
-      "type": "url",
-      "src": "https://pbs.twimg.com/profile_images/1938172640939696128/uUDofXDP_400x400.png",
-      "alt": "example file 2"
-    },
-    "readTime": "6 min read"
   }
 ]
