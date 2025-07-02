@@ -1,18 +1,34 @@
 [
   {
-    "slug": "example-post-1",
+    "slug": "welcome-to-gamefolio",
     "title": "Welcome to Gamefolio",
     "excerpt": "",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
-    "publishedAt": "2025-06-30",
+    "publishedAt": "2025-07-02",
     "category": "",
     "featured": true,
     "image": {
       "type": "local",
-      "src": "./assets/example-post1/image1.png",
-      "alt": "example image"
+      "src": "",
+      "alt": ""
     },
-    "readTime": "12 min read"
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "join-our-discord",
+    "title": "We have a Discord!",
+    "excerpt": "",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2025-07-02",
+    "category": "",
+    "featured": true,
+    "image": {
+      "type": "local",
+      "src": "",
+      "alt": ""
+    },
+    "readTime": "5 min read"
   }
 ]
