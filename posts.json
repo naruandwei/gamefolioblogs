@@ -1,7 +1,7 @@
 [
   {
     "slug": "welcome-to-gamefolio",
-    "title": "Welcome to Gamefolio",
+    "title": "Welcome to Gamefolio!",
     "excerpt": "",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
@@ -10,7 +10,7 @@
     "featured": true,
     "image": {
       "type": "local",
-      "src": "./assets/Welcome-to-gamefolio",
+      "src": "/assets/Welcome-to-gamefolio",
       "alt": "Welcome to Gamefolio!"
     },
     "readTime": "5 min read"
@@ -23,7 +23,7 @@
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-07-02",
     "category": "Community",
-    "featured": true,
+    "featured": false,
     "image": {
       "type": "local",
       "src": "./assets/Discord-banner.png",
