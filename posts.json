@@ -1,10 +1,11 @@
 [
   {
-    "slug": "example-post-1",
-    "title": "Featured example post with a local image",
-    "excerpt": "This is an example post, it is featured and also has the post image as a local image to show you how that item works",
+    "slug": "welcome-to-gamefolio",
+    "title": "Welcome to Gamefolio",
+    "excerpt": "",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
+<<<<<<< HEAD
     "publishedAt": "2025-06-30",
     "category": "Gaming news",
     "featured": true,
@@ -12,23 +13,37 @@
       "type": "local",
       "src": "./assets/welcome-to-gamefolio.png",
       "alt": "Welcome to Gamefolio!"
-    },
-    "readTime": "12 min read"
-  },
-  {
-    "slug": "example-post-2",
-    "title": "example post with a url image",
-    "excerpt": "This is an example post, it is not featured and also has the post image as a url image to show you how that item works",
-    "author": "Tom Watts",
-    "authorTwitter": "@w0tts",
-    "publishedAt": "2025-06-30",
-    "category": "Gaming news",
-    "featured": false,
+=======
+    "publishedAt": "2025-07-02",
+    "category": "",
+    "featured": true,
     "image": {
       "type": "local",
+      "src": "",
+      "alt": ""
+>>>>>>> a96ef0d9f9409f17bb9b6c5050afcde301ffb2df
+    },
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "join-our-discord",
+    "title": "We have a Discord!",
+    "excerpt": "",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2025-07-02",
+    "category": "",
+    "featured": true,
+    "image": {
+      "type": "local",
+<<<<<<< HEAD
       "src": "Discord-banner.png",
       "alt": "We have a Discord!"
+=======
+      "src": "",
+      "alt": ""
+>>>>>>> a96ef0d9f9409f17bb9b6c5050afcde301ffb2df
     },
-    "readTime": "6 min read"
+    "readTime": "5 min read"
   }
 ]
