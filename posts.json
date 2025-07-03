@@ -5,12 +5,12 @@
     "excerpt": "At Gamefolio, we’re not just another gaming website — we’re a community-first platform that exists to support, promote, and celebrate the people behind the games.",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
-    "publishedAt": "2025-07-02",
+    "publishedAt": "2025-07-03",
     "category": "Gaming news",
     "featured": true,
     "image": {
       "type": "local",
-      "src": "assets/Welcome-to-gamefolio.png",
+      "src": "./assets/Welcome-to-gamefolio.png",
       "alt": "Welcome to Gamefolio!"
     },
     "readTime": "5 min read"
@@ -21,7 +21,7 @@
     "excerpt": "We're building something special at Gamefolio — a place where gamers, streamers, and indie developers can connect, share, and grow together.",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
-    "publishedAt": "2025-07-02",
+    "publishedAt": "2025-07-03",
     "category": "Community",
     "featured": false,
     "image": {
