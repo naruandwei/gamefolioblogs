@@ -10,7 +10,7 @@
     "featured": true,
     "image": {
       "type": "local",
-      "src": "/assets/Welcome-to-gamefolio",
+      "src": "/assets/Welcome-to-gamefolio.png",
       "alt": "Welcome to Gamefolio!"
     },
     "readTime": "5 min read"
@@ -18,7 +18,7 @@
   {
     "slug": "join-our-discord",
     "title": "We have a Discord!",
-    "excerpt": "",
+    "excerpt": "We're building something special at Gamefolio — a place where gamers, streamers, and indie developers can connect, share, and grow together.",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-07-02",
