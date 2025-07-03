@@ -5,23 +5,13 @@
     "excerpt": "",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
-<<<<<<< HEAD
-    "publishedAt": "2025-06-30",
+    "publishedAt": "2025-07-02",
     "category": "Gaming news",
     "featured": true,
     "image": {
       "type": "local",
       "src": "./assets/welcome-to-gamefolio.png",
       "alt": "Welcome to Gamefolio!"
-=======
-    "publishedAt": "2025-07-02",
-    "category": "",
-    "featured": true,
-    "image": {
-      "type": "local",
-      "src": "",
-      "alt": ""
->>>>>>> a96ef0d9f9409f17bb9b6c5050afcde301ffb2df
     },
     "readTime": "5 min read"
   },
@@ -32,17 +22,12 @@
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-07-02",
-    "category": "",
+    "category": "Community",
     "featured": true,
     "image": {
       "type": "local",
-<<<<<<< HEAD
-      "src": "Discord-banner.png",
+      "src": "./assets/Discord-banner.png",
       "alt": "We have a Discord!"
-=======
-      "src": "",
-      "alt": ""
->>>>>>> a96ef0d9f9409f17bb9b6c5050afcde301ffb2df
     },
     "readTime": "5 min read"
   }
