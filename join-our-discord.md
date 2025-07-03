@@ -1,79 +1,26 @@
-# Creating Stunning Pixel Art for Your Indie Game
+![Join the Gamefolio Discord](./assets/discord-banner.png)
 
-> **Note**: This comprehensive guide covers everything from basic tools to advanced techniques. Bookmark this page and refer back to specific sections as you develop your skills.
+# Join the Gamefolio Discord Community
 
-Pixel art has experienced a massive renaissance in indie game development. From nostalgic platformers like [Celeste](https://www.celestegame.com/) to modern roguelikes such as [Dead Cells](https://dead-cells.com/), pixel art offers a unique aesthetic that can make your game stand out in a crowded market.
+We're building something special at Gamefolio — a place where gamers, streamers, and indie developers can connect, share, and grow together.
 
-This comprehensive guide will walk you through everything you need to know to create compelling pixel art for your indie game project, with practical examples and downloadable resources.
+Our Discord server is the heart of that community.
 
-![Pixel Art Character Examples](images/pixel-art-characters-showcase.png)
-*Figure 1: Various pixel art character styles from different indie games*
+## Why Join?
 
-## Table of Contents
+Whether you're looking to promote your content or just talk games, here's what you'll find inside:
 
-1. [Why Choose Pixel Art?](#why-choose-pixel-art)
-2. [Essential Tools for Pixel Art](#essential-tools-for-pixel-art)
-3. [Fundamental Techniques](#fundamental-techniques)
-4. [Character Design Principles](#character-design-principles)
-5. [Environment and Asset Creation](#environment-and-asset-creation)
-6. [Animation Principles](#animation-principles)
-7. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-8. [Advanced Techniques](#advanced-techniques)
-9. [Workflow Optimization](#workflow-optimization)
-10. [Testing and Polish](#testing-and-polish)
-11. [Resources and Downloads](#resources-and-downloads)
+🎥 **Clip Sharing** – Post your best gaming moments or funny fails. We regularly feature top clips on [Gamefolio.com](https://gamefolio.com) and social media.
 
----
+🧑‍💻 **Indie Game Zone** – Share your game dev progress, get feedback, and connect with other indie creators.
 
-## Why Choose Pixel Art?
+💬 **Community Chat** – Talk games, get advice, or join in on discussions with like-minded people.
 
-Pixel art isn't just about nostalgia—it's a practical and artistic choice that offers several advantages for indie developers:
+🎁 **Exclusive Giveaways** – Get access to Discord-only giveaways, beta codes, and more.
 
-### Advantages
+📢 **Announcements & Early Access** – Be the first to know about upcoming features, events, and opportunities on Gamefolio.
 
-- ✅ **Budget-friendly**: Requires minimal software investment
-- ✅ **Time-efficient**: Faster to create than detailed 3D models  
-- ✅ **Distinctive style**: Creates memorable visual identity
-- ✅ **Performance**: Lower file sizes and processing requirements
-- ✅ **Accessible**: Easier to learn than complex 3D modeling
+Whether you're a creator, developer, or just someone who loves gaming, there's a space for you here.
 
-### Market Success Stories
-
-Several indie games have achieved massive success with pixel art:
-
-| Game | Revenue | Art Style |
-|------|---------|-----------|
-| [Stardew Valley](https://www.stardewvalley.net/) | $30M+ | 16-bit inspired |
-| [Hyper Light Drifter](https://www.heart-machine.com/) | $1M+ | Neon pixel art |
-| [Katana ZERO](https://katanazero.com/) | $500K+ | Retro cyberpunk |
-
-> **Quote**: "Pixel art allowed us to focus on gameplay while creating a distinctive visual style that players instantly recognize." - *Eric Barone, Stardew Valley*
-
----
-
-## Essential Tools for Pixel Art
-
-### Free Options
-
-![Free Pixel Art Tools](images/free-tools-comparison.png)
-*Comparison of popular free pixel art tools*
-
-#### GIMP
-- **Website**: [https://www.gimp.org/](https://www.gimp.org/)
-- **Best for**: Beginners transitioning from photo editing
-- **Pros**: Extensive plugin support, powerful selection tools
-- **Cons**: Steep learning curve, not pixel-art focused
-
-#### Krita  
-- **Website**: [https://krita.org/](https://krita.org/)
-- **Best for**: Artists who also do digital painting
-- **Pros**: Excellent brush engine, animation support
-- **Cons**: Can be resource-heavy
-
-#### Piskel
-- **Website**: [https://www.piskelapp.com/](https://www.piskelapp.com/)
-- **Best for**: Complete beginners, browser-based work
-- **Pros**: No installation needed, simple interface
-- **Cons**: Limited advanced features
-
-### Professional Tools
+👉 **[Join the Gamefolio Discord](https://discord.gg/AaknCAYNnp)**  
+Let’s build the community — together.
