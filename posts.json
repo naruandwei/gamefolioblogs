@@ -10,7 +10,7 @@
     "featured": true,
     "image": {
       "type": "local",
-      "src": "./assets/welcome-to-gamefolio.png",
+      "src": "./assets/Welcome-to-gamefolio",
       "alt": "Welcome to Gamefolio!"
     },
     "readTime": "5 min read"
