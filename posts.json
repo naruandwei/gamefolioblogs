@@ -6,12 +6,12 @@
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-06-30",
-    "category": "Streaming",
+    "category": "Gaming news",
     "featured": true,
     "image": {
       "type": "local",
-      "src": "./assets/example-post1/image1.png",
-      "alt": "example image"
+      "src": "./assets/welcome-to-gamefolio.png",
+      "alt": "Welcome to Gamefolio!"
     },
     "readTime": "12 min read"
   },
@@ -25,9 +25,9 @@
     "category": "Gaming news",
     "featured": false,
     "image": {
-      "type": "url",
-      "src": "https://pbs.twimg.com/profile_images/1938172640939696128/uUDofXDP_400x400.png",
-      "alt": "example file 2"
+      "type": "local",
+      "src": "Discord-banner.png",
+      "alt": "We have a Discord!"
     },
     "readTime": "6 min read"
   }
