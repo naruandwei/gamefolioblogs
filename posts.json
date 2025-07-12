@@ -46,5 +46,21 @@
       "alt": "We have a Discord!"
     },
     "readTime": "5 min read"
-  }
+  },
+  {
+  "slug": "indiegame-BECROWNED",
+  "title": "Indie Spotlight Series #1 - BECROWNED",
+  "excerpt": "BECROWNED is a psychological horror game inspired by Silent Hill, focusing on atmosphere, symbolic storytelling, and emotional dread.",
+  "author": "Gamefolio Team",
+  "authorTwitter": "@gamefoliogg",
+  "publishedAt": "2025-07-12",
+  "category": "Indie games",
+  "featured": false,
+  "image": {
+    "type": "local",
+    "src": "./assets/indiegame-assets/becrowned-cover.jpg",
+    "alt": "BECROWNED"
+  },
+  "readTime": "5 min read"
+}
 ]
