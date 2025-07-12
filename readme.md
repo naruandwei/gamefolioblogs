@@ -82,6 +82,7 @@ The blog system fetches content from the GitHub repository at https://github.com
 - Gaming news
 - web3
 - Crypto
+- Community
 
 ### Folder Organization Options
 
