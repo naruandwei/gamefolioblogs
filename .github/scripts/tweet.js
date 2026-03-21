@@ -49,8 +49,19 @@ async function main() {
       text = `New post: ${post.title}\n\n${truncated}…\n\n${url}`;
     }
 
-    await client.readWrite.v2.tweet(text);
-    console.log(`Tweeted: ${post.title}`);
+    let attempts = 0;
+    while (attempts < 3) {
+      try {
+        await client.readWrite.v2.tweet(text);
+        console.log(`Tweeted: ${post.title}`);
+        break;
+      } catch (err) {
+        attempts++;
+        if (attempts === 3) throw err;
+        console.log(`Attempt ${attempts} failed (${err.code}), retrying in 5s...`);
+        await new Promise(r => setTimeout(r, 5000));
+      }
+    }
   }
 }
 
