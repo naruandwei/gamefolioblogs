@@ -11,17 +11,28 @@ const client = new TwitterApi({
 
 async function main() {
   const currentPosts = JSON.parse(fs.readFileSync('posts.json', 'utf8'));
+  const isManual = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch';
 
-  let previousPosts = [];
-  try {
-    const previousJson = execSync('git show HEAD~1:posts.json').toString();
-    previousPosts = JSON.parse(previousJson);
-  } catch {
-    previousPosts = [];
+  let newPosts;
+
+  if (isManual) {
+    // Manual run — tweet only the most recently published post
+    const sorted = [...currentPosts].sort((a, b) =>
+      new Date(b.publishedAt) - new Date(a.publishedAt)
+    );
+    newPosts = [sorted[0]];
+    console.log('Manual run: tweeting most recent post only.');
+  } else {
+    let previousPosts = [];
+    try {
+      const previousJson = execSync('git show HEAD~1:posts.json').toString();
+      previousPosts = JSON.parse(previousJson);
+    } catch {
+      previousPosts = [];
+    }
+    const previousSlugs = new Set(previousPosts.map(p => p.slug));
+    newPosts = currentPosts.filter(p => !previousSlugs.has(p.slug));
   }
-
-  const previousSlugs = new Set(previousPosts.map(p => p.slug));
-  const newPosts = currentPosts.filter(p => !previousSlugs.has(p.slug));
 
   if (newPosts.length === 0) {
     console.log('No new posts detected, skipping tweet.');
