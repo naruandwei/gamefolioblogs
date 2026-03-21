@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'posts.json'
+  workflow_dispatch:
 
 jobs:
   tweet:
