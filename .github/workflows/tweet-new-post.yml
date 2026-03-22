@@ -15,17 +15,37 @@ jobs:
         with:
           fetch-depth: 2
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install twitter-api-v2
-
-      - name: Tweet new posts
+      - name: Get new or latest post and send webhook
         env:
-          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
-        run: node .github/scripts/tweet.js
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+        run: |
+          CURRENT=$(cat posts.json)
+          IS_MANUAL="${{ github.event_name }}"
+
+          if [ "$IS_MANUAL" = "workflow_dispatch" ]; then
+            # Manual run — use most recently published post
+            POST=$(echo "$CURRENT" | jq 'sort_by(.publishedAt) | last')
+            echo "Manual run: using most recent post"
+          else
+            # Push — find newly added post
+            PREVIOUS=$(git show HEAD~1:posts.json 2>/dev/null || echo "[]")
+            PREV_SLUGS=$(echo "$PREVIOUS" | jq -r '.[].slug')
+            POST=$(echo "$CURRENT" | jq --argjson prev "$(echo "$PREVIOUS")" \
+              '[.[] | select(.slug as $s | $prev | map(.slug) | index($s) | not)] | last')
+          fi
+
+          if [ "$POST" = "null" ] || [ -z "$POST" ]; then
+            echo "No new post found, skipping."
+            exit 0
+          fi
+
+          TITLE=$(echo "$POST" | jq -r '.title')
+          EXCERPT=$(echo "$POST" | jq -r '.excerpt')
+          SLUG=$(echo "$POST" | jq -r '.slug')
+          URL="https://gamefolio.com/blogs/$SLUG"
+
+          echo "Sending webhook for: $TITLE"
+
+          curl -s -X POST "$MAKE_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d "{\"title\": $(echo "$TITLE" | jq -R .), \"excerpt\": $(echo "$EXCERPT" | jq -R .), \"url\": \"$URL\"}"
