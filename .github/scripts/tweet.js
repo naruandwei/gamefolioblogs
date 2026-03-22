@@ -40,7 +40,7 @@ async function main() {
   }
 
   for (const post of newPosts) {
-    const url = `https://gamefolio.com/blogs/${post.slug}`;
+    const url = `https://gamefolio.com/blog/${post.slug}`;
     let text = `New post: ${post.title}\n\n${post.excerpt}\n\n${url}`;
 
     if (text.length > 280) {
