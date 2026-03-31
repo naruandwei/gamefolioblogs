@@ -45,7 +45,7 @@ Throughout each run, players can collect upgrades, buffs, and special items that
 
 Follow the developer for updates on [Twitter.](https://x.com/KBGSgames)
 
-## Why You Should Try BECROWNED
+## Why You Should Try Swarm Me
 
 Swarm Me stands out by doing something bold - removing weapons entirely and forcing players to rely on pure skill and strategy. Its fast-paced gameplay, escalating tension, and clever use of environmental mechanics make it a unique entry in the survival genre. If you enjoy games that test your reflexes, decision-making, and adaptability under pressure, this is one you shouldn’t miss!
 
