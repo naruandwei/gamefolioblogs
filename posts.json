@@ -78,5 +78,20 @@
       "alt": "Gamefolio Beta is Live"
     },
     "readTime": "2 min read"
-  }
+  },
+    {
+    "slug": "indiegame-SwarmMe",
+    "title": "Indie Spotlight Series #2 - BECROWNED",
+    "excerpt": "Swarm Me is a top-down survival game where you can’t fight back. You survive by dodging enemies and luring them into traps.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-03-31",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/swarmme_cover.jpg",
+      "alt": "BECROWNED"
+  },
+  "readTime": "5 min read"
 ]
