@@ -90,7 +90,7 @@
     "featured": false,
     "image": {
       "type": "local",
-      "src": "https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame_swarmme/swarmme_cover.jpg",
+      "src": "./assets/indiegame_swarmme/swarmme_cover.jpg",
       "alt": "Swarm Me"
     },
     "readTime": "5 min read"
