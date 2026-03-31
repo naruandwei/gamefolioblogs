@@ -4,10 +4,6 @@ Swarm Me is a fast-paced, minimalist survival game that flips the script on trad
 
 ---
 
-<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/Swarm%20Me.mp4" controls width="100%"></video>
-
----
-
 ## A Survival Experience Without Weapons
 
 Unlike most horde survival games, Swarm Me removes direct combat entirely. There are no guns, no attacks - only your ability to outmaneuver the swarm. Players must “kite” enemies, carefully guiding them through the arena and baiting them into traps to survive. This design shifts the focus from offense to pure strategy and positioning.
