@@ -1,10 +1,6 @@
-![SWARM ME](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_swarmme/swarmme_cover.jpg)
-
 # Swarm Me: Outsmart the Horde in a Brutal Survival Arena!
 
 Swarm Me is a fast-paced, minimalist survival game that flips the script on traditional action titles. Instead of fighting back with weapons, players must rely purely on movement, strategy, and environmental traps to survive an ever-growing swarm of deadly drones. It’s a game built on tension, precision, and the constant pressure of being hunted.
-
-![Game example photo 1](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_swarmme/swarmme_trailer.mp4)
 
 ---
 
