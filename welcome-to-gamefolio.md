@@ -1,4 +1,4 @@
-![Welcome to Gamefolio](./assets/welcome-to-gamefolio.png)
+![Welcome to Gamefolio](/assets/welcome-to-gamefolio.png)
 
 ## 🎮 Welcome to Gamefolio – Built to Uplift the Gaming Community
 

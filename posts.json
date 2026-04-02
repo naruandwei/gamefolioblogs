@@ -62,5 +62,37 @@
     "alt": "BECROWNED"
   },
   "readTime": "5 min read"
-}
+},
+  {
+    "slug": "gamefolio-beta-is-live",
+    "title": "The Gamefolio Beta is Live — and You're Invited",
+    "excerpt": "Create an account, post your best clips, reels and screenshots, follow the best content, and showcase what you're made of. The Gamefolio beta is open now.",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2026-03-21",
+    "category": "Gaming news",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/beta-banner.png",
+      "alt": "Gamefolio Beta is Live"
+    },
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "indiegame-SwarmMe",
+    "title": "Indie Spotlight Series #2 - Swarm Me",
+    "excerpt": "Swarm Me is a top-down survival game where you can’t fight back—you survive by dodging enemies and luring them into traps.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-03-31",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/swarmme_cover.jpg",
+      "alt": "Swarm Me"
+    },
+    "readTime": "5 min read"
+  }  
 ]
